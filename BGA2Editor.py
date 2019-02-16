@@ -130,7 +130,7 @@ def BGAEdit(BGAProfilePath,isCampaign):
 def EditShips(ProfileMM,Faction,Mode):
   if (Faction == "Imperium"):
     FindStrings = ["Imp_Escort", "Imp_Lightcruiser", "Imp_Cruiser", "Imp_Battlecruiser", "Imp_Grandcruiser", "Imp_Battleship", "SpaceMarines_Escort", "SpaceMarines_Lightcruiser", "SpaceMarines_Cruiser", "SpaceMarines_Battleship", "AdeptusMechanicus_Escort", "AdeptusMechanicus_Lightcruiser", "AdeptusMechanicus_Cruiser", "AdeptusMechanicus_Battleship"]
-    MaxHullValues = {"Cobra":200, "CobraWidowmaker":200, "Firestorm":400, "Sword":400, "Falchion":400}
+    MaxHullValues = {"Cobra":200, "CobraWidowmaker":200, "Hunter": 200, "Firestorm":400, "Sword":400, "Falchion":400, "Gladius": 400, "Nova": 400}
   elif (Faction == "Necron"):
     FindStrings = ["Necron_Escort", "Necron_Lightcruiser", "Necron_Cruiser", "Necron_Battlecruiser", "Necron_Battleship"]
     MaxHullValues = {"DirgeRaider":200, "Jackal":400, "Cartouche":800, "Shroud":800, "Khopesh":1200, "ScytheHarvester":1600, "ScytheReaper":2000, "Cairn":2400}
